@@ -1,0 +1,96 @@
+*,
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+header {
+  height:10vh;
+  background: rgb(35, 117, 113);
+  text-align: center;
+  text-transform:uppercase;
+  padding: 2rem 0 2rem 0;
+}
+
+#h-1 {
+  color:yellow;
+  font-size: 3rem;
+}
+
+#h-2 {
+  color:lightgray;
+  font-size: 2.5rem;
+}
+
+#form {
+  width:50%;
+  margin:3rem 0 3rem 25%;
+}
+
+#title {
+  background: rgb(35, 117, 113);
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  font-size:3rem;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+#btn1 {
+    background: rgb(35, 117, 113);
+    color:#fff;
+    padding: 1rem;
+}
+
+#btn2 {
+    background: rgb(92, 88, 88);
+    color:#fff;
+    padding: 1rem;
+}
+
+#boutons {
+  display:flex;
+  justify-content: space-between;
+}
+
+#erreur {
+  display:none;
+  background: red;
+  color:#fff;
+  font-size:2rem;
+  text-align: center;
+}
+
+p {
+  background: green;
+  color:#fff;
+  text-align: center;
+  font-size:2rem;
+}
+
+#saisie {
+  width:65%;
+  margin-left: 4.5rem;
+  padding: 1rem 0 1rem 0;
+  font-size:1.5rem;
+}
+
+#champ {
+  padding:2rem 0 2rem 0;
+  font-size:2rem;
+}
+
+
